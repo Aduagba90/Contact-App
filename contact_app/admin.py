@@ -3,7 +3,7 @@ from django.contrib.auth import models
 from django.contrib.auth.models import AbstractUser
 from django.db.models import CharField, DecimalField, ForeignKey
 
-from to_do_app.models import Users
+from contact_app.models import Users
 
 
 class AdminUser(AbstractUser):

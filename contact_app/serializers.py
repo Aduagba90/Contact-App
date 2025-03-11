@@ -1,7 +1,7 @@
 from django.core.serializers import serialize, get_serializer_formats
 from rest_framework import serializers
 
-from to_do_app.models import Users, Contacts
+from contact_app.models import Users, Contacts
 
 
 class UsersSerializer(serializers.ModelSerializer):
